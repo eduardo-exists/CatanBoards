@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "catanboards"
+version = "0.1.0"
+description = "Project for generating fair catan boards"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+networkx = "^2.8.2"
+numpy = "^1.22.4"
+
+[tool.poetry.dev-dependencies]
+notebook = "^6.4.11"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
